@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="r_name" required></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="r_email" required></td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td><input type="tel" name="r_phone" required></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="r_pass" required></td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td><input type="date" name="r_date" required></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="r_sex" value="male" required>Male<br>
+                    <input type="radio" name="r_sex" value="female" required>Female
+                </td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>
+                    <select name="r_country">
+                        <option value="South Africa">South Africa</option>
+                        <option value="USA">USA</option>
+                        <option value="Zambia">Zambia</option>
+                        <option value="Zimbabwe">Zimbabwe</option>
+                        <option value="Botswana">Botswana</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Employmet Status</td>
+                <td>
+                    <select name="r_Employment_Status" id="language">
+                        <option value="select">select</option>
+                        <option value="Employed">Employed</option>
+                        <option value="Self-Employed">Self-Employed</option>
+                        <option value="Entrepreneur/Business Owner">Entrepreneur/Business Owner</option>
+                        <option value="Unemployed" selected>Unemployed</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Register" required></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
