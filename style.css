@@ -1,5 +1,17 @@
-div{
+#description{
+    margin: auto;
+    padding: auto;
+    border: 2px solid orangered;
     width: auto;
     background-color: whitesmoke;
+    width: auto;
+    height: auto;
     font-family: sans-serif;
+}
+.box_text{
+    font-style: italic;
+    color: gray;
+}
+section#description > .box_text2{
+    color: aquamarine;
 }
