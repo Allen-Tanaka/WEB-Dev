@@ -52,6 +52,8 @@ body{
     margin: 0px;
     padding: 0px;
     position: absolute;
+    z-index: 999;
+    display: none;
 }
 .drop > li > a{
     color: rgb(246, 149, 29);
@@ -68,6 +70,7 @@ body{
 .nav_menu > ul > li:hover .drop{
     display: block;
 }
+
 /**Banner**/
 .banner{
     width: 1000px;
