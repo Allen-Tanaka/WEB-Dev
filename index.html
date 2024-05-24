@@ -11,35 +11,42 @@
 </head>
 <body>
 
-    <div>
-        <header><!--HEADER-->
-            <div id="logo"><!--Logo-->
+    <div class="container">
+        <header class="head"><!--HEADER-->
+            <div class="logo"><!--Logo-->
                 <a href="index.html">
-                    <img src="../HTML/sources/imgs/logo + tag.png" alt="Logo">
+                    <img src="sources/imgs/A New Design.png" alt="Logo" sizes="">
                 </a>
             </div><!--Logo-->
 
-            <div id="nav_menu"><!--Navigation menu-->
-                <nav>
-                    <ul>
-                        <li><a href="menu/Engineering.html">Engineering</a></li>
-                            <ul>
-                                <li><a href="#">Civil Engineering</a></li>
-                                <li><a href="#">Construction</a></li>
-                                <li><a href="#">Project Management</a></li>
-                                <li><a href="#">Consulting</a></li>
-                            </ul>
-                        <li><a href="menu/Supply.html">Supply</a></li>
-                        <li><a href="menu/IT_Solutions.html">IT Solutions</a></li>
-                        <li><a href="menu/About.html">About</a></li>
-                        <li><a href="menu/iCODE.html">iCODE</a></li>
-                    </ul>
-                </nav>
-            </div><!--Navigation menu-->
+            <div class="search"><!--search-->
+                <form>
+                    <input type="serach" name="s" placeholder="Search...">
+                    <input type="submit" value=">">
+                </form>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <nav class="nav_menu"><!--Navigation menu-->
+                <ul>
+                    <li><a href="menu/Engineering.html">Engineering</a></li>
+                         <ul class="drop">
+                            <li><a href="#">Civil Engineering</a></li>
+                            <li><a href="#">Construction</a></li>
+                            <li><a href="#">Project Management</a></li>
+                            <li><a href="#">Consulting</a></li>
+                        </ul>
+                    <li><a href="menu/Supply.html">Supply</a></li>
+                    <li><a href="menu/IT_Solutions.html">IT Solutions</a></li>
+                    <li><a href="menu/About.html">About</a></li>
+                    <li><a href="menu/iCODE.html">iCODE</a></li>
+                </ul>
+            </nav><!--Navigation menu-->
         </header><!--HEADER-->
 
-        <section><!--Banner-->
-            <img src="sources/imgs/ATE BUSINESS PLAN LAYOUT_Page_17.png" width="1500px" height="1700px" alt="">
+        <section class="banner"><!--Banner-->
+            <img src="sources/imgs/ATE BUSINESS PLAN LAYOUT_Page_17.png" alt="">
         </section><!--Banner-->
 
         <section id="description"><!--Content holder-->
