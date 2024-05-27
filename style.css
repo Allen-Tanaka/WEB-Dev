@@ -74,9 +74,10 @@ body{
 /**Banner**/
 .banner{
     width: 1000px;
-    height: auto;
+    height: 667px;
+    overflow: hidden;
 }
 .banner img{
-    width: 1000px;
+    width: 100%;
     height: auto;
 }
