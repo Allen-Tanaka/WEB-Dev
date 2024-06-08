@@ -181,3 +181,44 @@ address p{
 .copy p{
     margin: auto;
 }
+
+/* 3 */
+/* Styles for the vision board section */
+.vision-board {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Styles for the sliding values */
+.values-container {
+    flex: 1;
+}
+
+.sliding-values {
+    margin-bottom: 30px;
+}
+
+.value-slide {
+    display: none;
+}
+
+/* Styles for mission and vision */
+.mission-vision {
+    flex: 1;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mission-vision h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.mission-vision p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
