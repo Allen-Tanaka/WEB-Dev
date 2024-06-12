@@ -222,3 +222,18 @@ address p{
     line-height: 1.6;
     margin-bottom: 20px;
 }
+
+/*FAQ*/
+/* FAQ Section */
+.faq {
+    color: #fff;
+    background-color: rgb(24, 39, 2);
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
